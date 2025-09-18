@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 3</title>
+</head>
+<body>
+  <h1>Browser Redirect</h1>
+
+  <script>
+    // Is browser Mozilla
+    if (navigator.userAgent.indexOf("Firefox") !== -1) {
+      // Redirect to Mozilla
+      window.location.href = "http://www.mozilla.org";
+    } else {
+      // Redirect to stackoverflow
+      window.location.href = "http://www.stackoverflow.com";
+    }
+  </script>
+</body>
+</html>
